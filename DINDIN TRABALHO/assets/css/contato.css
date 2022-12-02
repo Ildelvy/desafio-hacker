@@ -1,0 +1,86 @@
+.contato-logo {
+    background-color: #2E948A;
+
+}
+
+.menu-logo {
+    position: absolute;
+    width: 80px;
+    height: 23px;
+    left: 1028px;
+    top: 47px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    color: white;
+
+}
+
+#contato {
+    margin: 97px 127px 133px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contato form {
+    flex-grow: 2;
+    margin-left: 15px;
+    padding: 26px 23px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#contato form h2 {
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 67px;
+}
+contato form input{
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 7px 34px;
+    margin-bottom: 23px;
+}
+#contato form input:focus{
+    outline: none;
+}
+
+.box-form input, textarea{
+    margin: 20px 0 0 60px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px 5px;
+    outline-color: black;  
+   }
+  
+   .box-form button{
+      background-color: black;
+      margin: 20px 0 0 60px ;
+      height: 45px;
+      width: 140px;
+      border: 2px solid black;
+      border-radius: 50px 50px;
+      outline-color: black; 
+      font-size: 18px;
+      font-weight: 500;
+      text-align: center;
+      color: #FDFDFD;
+      padding: 10px 10px;    
+   }
+
+
+
+
+footer {
+    background-color: #2e948a;
+    display: flex;
+    padding: 30px;
+}
